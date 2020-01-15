@@ -3,6 +3,7 @@
   "description": "건축물대장 다운로드\r\n",
   "main": "Main.xaml",
   "dependencies": {
+    "R.Activities": "[1.0.0.1464]",
     "UiPath": "[19.10.7243.31457]",
     "UiPath.DataRobot.Activities": "[1.0.0]",
     "UiPath.Excel.Activities": "[2.6.3]",

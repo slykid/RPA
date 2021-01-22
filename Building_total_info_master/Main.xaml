@@ -603,7 +603,7 @@
                                                                   <av:PointCollection x:Key="ConnectorLocation">870,1684 870,1744.5</av:PointCollection>
                                                                 </scg:Dictionary>
                                                               </sap:WorkflowViewStateService.ViewState>
-                                                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;City IDX : &quot; + (fileDownloadCount).ToString +&#xD;&#xA;&quot;City Name : &quot; + city_list(fileDownloadCount)]">
+                                                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;City IDX : &quot; + (fileDownloadCount).ToString +&#xA;&quot;City Name : &quot; + city_list(fileDownloadCount)]">
                                                                 <sap:WorkflowViewStateService.ViewState>
                                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -832,10 +832,7 @@
                                                                                 </sap:WorkflowViewStateService.ViewState>
                                                                               </Assign>
                                                                               <FlowStep.Next>
-                                                                                <FlowDecision x:Name="__ReferenceID19" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="81,87" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
-                                                                                  <FlowDecision.Condition>
-                                                                                    <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="durationTime=5.0" />
-                                                                                  </FlowDecision.Condition>
+                                                                                <FlowDecision x:Name="__ReferenceID19" Condition="[durationTime=5.0]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="81,87" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
                                                                                   <sap:WorkflowViewStateService.ViewState>
                                                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>

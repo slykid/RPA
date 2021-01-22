@@ -108,19 +108,19 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser " sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="BrowserScope_52" InformativeScreenshot="e9a21a9af3a2cfd2c2c5e237d10d8b54" Selector="&lt;html title='건축데이터 민간개방 시스템' /&gt;" TimeoutMS="1200000">
+            <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser " sap:VirtualizedContainerService.HintSize="592,1847" sap2010:WorkflowViewState.IdRef="BrowserScope_52" InformativeScreenshot="e9a21a9af3a2cfd2c2c5e237d10d8b54" Selector="&lt;html title='건축데이터 민간개방 시스템' /&gt;" TimeoutMS="1200000">
               <ui:BrowserScope.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                   </ActivityAction.Argument>
-                  <Sequence sap:VirtualizedContainerService.HintSize="558,1511" sap2010:WorkflowViewState.IdRef="Sequence_106">
+                  <Sequence sap:VirtualizedContainerService.HintSize="558,1701" sap2010:WorkflowViewState.IdRef="Sequence_106">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="516,1266" sap2010:WorkflowViewState.IdRef="Sequence_104">
+                    <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="516,1416" sap2010:WorkflowViewState.IdRef="Sequence_104">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -238,7 +238,7 @@
                         </ui:Click.Target>
                       </ui:Click>
                       <Delay Duration="00:00:15" sap:VirtualizedContainerService.HintSize="438,22" sap2010:WorkflowViewState.IdRef="Delay_39" />
-                      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,183" sap2010:WorkflowViewState.IdRef="TryCatch_11">
+                      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,333" sap2010:WorkflowViewState.IdRef="TryCatch_11">
                         <TryCatch.Try>
                           <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'IMG '" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_89" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="True">
                             <ui:Click.CursorPosition>
@@ -523,13 +523,13 @@
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser '          Page'" sap:VirtualizedContainerService.HintSize="434,490" sap2010:WorkflowViewState.IdRef="BrowserScope_49" InformativeScreenshot="b86374fa139fb85f3e75bb4e16ef6142" Selector="&lt;html title='건축데이터 민간개방 시스템' /&gt;">
+                            <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser '          Page'" sap:VirtualizedContainerService.HintSize="434,691" sap2010:WorkflowViewState.IdRef="BrowserScope_49" InformativeScreenshot="b86374fa139fb85f3e75bb4e16ef6142" Selector="&lt;html title='건축데이터 민간개방 시스템' /&gt;">
                               <ui:BrowserScope.Body>
                                 <ActivityAction x:TypeArguments="x:Object">
                                   <ActivityAction.Argument>
                                     <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                                   </ActivityAction.Argument>
-                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,344" sap2010:WorkflowViewState.IdRef="Sequence_99">
+                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,545" sap2010:WorkflowViewState.IdRef="Sequence_99">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -556,6 +556,15 @@
                                         <OutArgument x:TypeArguments="ui:GenericValue">[Td2]</OutArgument>
                                       </ui:GetValue.Value>
                                     </ui:GetValue>
+                                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_19" Text="[Td2]" />
+                                    <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_24">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:String">[dataTitle]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:String">[Td2]</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
                                   </Sequence>
                                 </ActivityAction>
                               </ui:BrowserScope.Body>
@@ -1415,7 +1424,7 @@
                                                                                                               <av:PointCollection x:Key="ConnectorLocation">230,3895.5 230,3925.5</av:PointCollection>
                                                                                                             </scg:Dictionary>
                                                                                                           </sap:WorkflowViewStateService.ViewState>
-                                                                                                          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="건축물대장 층별개요 다운로드가 완료되었습니다." DisplayName="Send Mail Message : 층별개요" Email="kid1064@gmail.com" EnableSSL="True" From="kid1064@gmail.com" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SendMail_2" IsBodyHtml="False" Name="BLD_Automation" Password="[Password]" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="건축물대장 층별개요  다운로드 완료" To="ghkim@nice.co.kr">
+                                                                                                          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="건축물대장 층별개요 다운로드가 완료되었습니다." DisplayName="Send Mail Message : 층별개요" Email="kid1064@gmail.com" EnableSSL="True" From="kid1064@gmail.com" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SendMail_2" IsBodyHtml="False" Name="BLD_Automation" Password="[Password]" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="건축물대장 층별개요  다운로드 완료" To="ghkim@nice.co.kr">
                                                                                                             <ui:SendMail.Files>
                                                                                                               <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                                                                                                             </ui:SendMail.Files>
@@ -1485,7 +1494,7 @@
                                                                                                               <av:PointCollection x:Key="ConnectorLocation">490,3895.5 490,3924.5</av:PointCollection>
                                                                                                             </scg:Dictionary>
                                                                                                           </sap:WorkflowViewStateService.ViewState>
-                                                                                                          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="건축물대장 층별개요 다운로드에 실패하였습니다 오류메세지를 확인하세요." DisplayName="Send Mail Message : 실패" Email="kid1064@gmail.com" EnableSSL="True" From="kid1064@gmail.com" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SendMail_3" IsBodyHtml="False" Name="BLD_Automation" Password="[Password]" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="건축물대장 층별개요 다운로드 실패" To="ghkim@nice.co.kr">
+                                                                                                          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="건축물대장 층별개요 다운로드에 실패하였습니다 오류메세지를 확인하세요." DisplayName="Send Mail Message : 실패" Email="kid1064@gmail.com" EnableSSL="True" From="kid1064@gmail.com" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SendMail_3" IsBodyHtml="False" Name="BLD_Automation" Password="[Password]" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="건축물대장 층별개요 다운로드 실패" To="ghkim@nice.co.kr">
                                                                                                             <ui:SendMail.Files>
                                                                                                               <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                                                                                                             </ui:SendMail.Files>
@@ -1923,7 +1932,7 @@
                                                           <av:PointCollection x:Key="ConnectorLocation">1060,2194.5 1060,2234.5</av:PointCollection>
                                                         </scg:Dictionary>
                                                       </sap:WorkflowViewStateService.ViewState>
-                                                      <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="건축물대장 표제부 다운로드에 실패하였습니다 오류메세지를 확인하세요." DisplayName="Send Mail Message : 실패" Email="kid1064@gmail.com" EnableSSL="True" From="kid1064@gmail.com" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SendMail_5" IsBodyHtml="False" Name="BLD_Automation" Password="[Password]" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="건축물대장 표제부 다운로드 실패" To="ghkim@nice.co.kr">
+                                                      <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="건축물대장 표제부 다운로드에 실패하였습니다 오류메세지를 확인하세요." DisplayName="Send Mail Message : 실패" Email="kid1064@gmail.com" EnableSSL="True" From="kid1064@gmail.com" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SendMail_5" IsBodyHtml="False" Name="BLD_Automation" Password="[Password]" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="건축물대장 표제부 다운로드 실패" To="ghkim@nice.co.kr">
                                                         <ui:SendMail.Files>
                                                           <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                                                         </ui:SendMail.Files>

@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1488,4417" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1384,4417" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="44">
       <x:String>System.Activities</x:String>
@@ -74,7 +74,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
-      <x:Reference>__ReferenceID59</x:Reference>
+      <x:Reference>__ReferenceID60</x:Reference>
     </Flowchart.StartNode>
     <FlowStep x:Name="__ReferenceID6">
       <sap:WorkflowViewStateService.ViewState>
@@ -504,7 +504,7 @@
                         </sap:WorkflowViewStateService.ViewState>
                       </Delay>
                       <FlowStep.Next>
-                        <FlowStep x:Name="__ReferenceID56">
+                        <FlowStep x:Name="__ReferenceID57">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <av:Point x:Key="ShapeLocation">580,1271</av:Point>
@@ -720,7 +720,7 @@
                                             </sap:WorkflowViewStateService.ViewState>
                                           </ui:PathExists>
                                           <FlowStep.Next>
-                                            <FlowStep x:Name="__ReferenceID53">
+                                            <FlowStep x:Name="__ReferenceID54">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <av:Point x:Key="ShapeLocation">434.5,2375.5</av:Point>
@@ -770,7 +770,7 @@
                                                               <av:PointCollection x:Key="ConnectorLocation">390,2751.5 390,2784.5</av:PointCollection>
                                                             </scg:Dictionary>
                                                           </sap:WorkflowViewStateService.ViewState>
-                                                          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="건축물대장 표제부 다운로드가 완료되었습니다." DisplayName="Send Mail Message : 표제부" Email="kid1064@gmail.com" EnableSSL="True" From="kid1064@gmail.com" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="BLD_Automation" Password="[Password]" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="건축물대장 표제부 다운로드 완료" To="ghkim@nice.co.kr">
+                                                          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="건축물대장 표제부 다운로드가 완료되었습니다." DisplayName="Send Mail Message : 표제부" Email="kid1064@gmail.com" EnableSSL="True" From="kid1064@gmail.com" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="BLD_Automation" Password="jcqbczcjqhrcwszg" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="건축물대장 표제부 다운로드 완료" To="ghkim@nice.co.kr">
                                                             <ui:SendMail.Files>
                                                               <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                                                             </ui:SendMail.Files>
@@ -964,7 +964,7 @@
                                                                                           </scg:Dictionary>
                                                                                         </sap:WorkflowViewStateService.ViewState>
                                                                                         <TryCatch.Try>
-                                                                                          <Sequence DisplayName="Download Data : 층별개요" sap:VirtualizedContainerService.HintSize="476,1112" sap2010:WorkflowViewState.IdRef="Sequence_92">
+                                                                                          <Sequence DisplayName="Download Data : 층별개요" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_92">
                                                                                             <sap:WorkflowViewStateService.ViewState>
                                                                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1068,7 +1068,7 @@
                                                                                               <ActivityAction.Argument>
                                                                                                 <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                                                                               </ActivityAction.Argument>
-                                                                                              <Sequence DisplayName="exception process" sap:VirtualizedContainerService.HintSize="526,2978" sap2010:WorkflowViewState.IdRef="Sequence_98">
+                                                                                              <Sequence DisplayName="exception process" sap:VirtualizedContainerService.HintSize="526,620" sap2010:WorkflowViewState.IdRef="Sequence_98">
                                                                                                 <Sequence.Variables>
                                                                                                   <Variable x:TypeArguments="ui:GenericValue" Name="Td" />
                                                                                                 </Sequence.Variables>
@@ -1374,7 +1374,7 @@
                                                                                             </sap:WorkflowViewStateService.ViewState>
                                                                                           </ui:PathExists>
                                                                                           <FlowStep.Next>
-                                                                                            <FlowStep x:Name="__ReferenceID55">
+                                                                                            <FlowStep x:Name="__ReferenceID56">
                                                                                               <sap:WorkflowViewStateService.ViewState>
                                                                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                   <av:Point x:Key="ShapeLocation">284.5,3555.02</av:Point>
@@ -1424,7 +1424,7 @@
                                                                                                               <av:PointCollection x:Key="ConnectorLocation">230,3895.5 230,3925.5</av:PointCollection>
                                                                                                             </scg:Dictionary>
                                                                                                           </sap:WorkflowViewStateService.ViewState>
-                                                                                                          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="건축물대장 층별개요 다운로드가 완료되었습니다." DisplayName="Send Mail Message : 층별개요" Email="kid1064@gmail.com" EnableSSL="True" From="kid1064@gmail.com" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SendMail_2" IsBodyHtml="False" Name="BLD_Automation" Password="[Password]" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="건축물대장 층별개요  다운로드 완료" To="ghkim@nice.co.kr">
+                                                                                                          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="건축물대장 층별개요 다운로드가 완료되었습니다." DisplayName="Send Mail Message : 층별개요" Email="kid1064@gmail.com" EnableSSL="True" From="kid1064@gmail.com" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SendMail_2" IsBodyHtml="False" Name="BLD_Automation" Password="jcqbczcjqhrcwszg" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="건축물대장 층별개요  다운로드 완료" To="ghkim@nice.co.kr">
                                                                                                             <ui:SendMail.Files>
                                                                                                               <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                                                                                                             </ui:SendMail.Files>
@@ -1435,7 +1435,7 @@
                                                                                                             </sap:WorkflowViewStateService.ViewState>
                                                                                                           </ui:SendMail>
                                                                                                           <FlowStep.Next>
-                                                                                                            <FlowStep x:Name="__ReferenceID50">
+                                                                                                            <FlowStep x:Name="__ReferenceID51">
                                                                                                               <sap:WorkflowViewStateService.ViewState>
                                                                                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                                   <av:Point x:Key="ShapeLocation">130,3925.5</av:Point>
@@ -1456,16 +1456,43 @@
                                                                                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                                       <av:Point x:Key="ShapeLocation">240,4049.5</av:Point>
                                                                                                                       <av:Size x:Key="ShapeSize">231,61</av:Size>
-                                                                                                                      <av:PointCollection x:Key="ConnectorLocation">260,1850.5 260,1884.5</av:PointCollection>
+                                                                                                                      <av:PointCollection x:Key="ConnectorLocation">355.5,4110.5 355.5,4140.5 350,4140.5 350,4164.5</av:PointCollection>
                                                                                                                     </scg:Dictionary>
                                                                                                                   </sap:WorkflowViewStateService.ViewState>
-                                                                                                                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="231,61" sap2010:WorkflowViewState.IdRef="WriteLine_11" Text="Process End">
+                                                                                                                  <WriteLine DisplayName="종료 메세지 출력" sap:VirtualizedContainerService.HintSize="231,61" sap2010:WorkflowViewState.IdRef="WriteLine_11" Text="Process End">
                                                                                                                     <sap:WorkflowViewStateService.ViewState>
                                                                                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                                                       </scg:Dictionary>
                                                                                                                     </sap:WorkflowViewStateService.ViewState>
                                                                                                                   </WriteLine>
+                                                                                                                  <FlowStep.Next>
+                                                                                                                    <FlowStep x:Name="__ReferenceID59">
+                                                                                                                      <sap:WorkflowViewStateService.ViewState>
+                                                                                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                                                          <av:Point x:Key="ShapeLocation">250,4164.5</av:Point>
+                                                                                                                          <av:Size x:Key="ShapeSize">200,51</av:Size>
+                                                                                                                        </scg:Dictionary>
+                                                                                                                      </sap:WorkflowViewStateService.ViewState>
+                                                                                                                      <ui:CloseApplication DisplayName="익스플로러 종료" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="CloseApplication_1">
+                                                                                                                        <ui:CloseApplication.Target>
+                                                                                                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="ae7b7f75d53584c408b7e0fa1253433a" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='건축데이터 민간개방 시스템 - Internet Explorer' /&gt;">
+                                                                                                                            <ui:Target.TimeoutMS>
+                                                                                                                              <InArgument x:TypeArguments="x:Int32" />
+                                                                                                                            </ui:Target.TimeoutMS>
+                                                                                                                            <ui:Target.WaitForReady>
+                                                                                                                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                                                                                                                            </ui:Target.WaitForReady>
+                                                                                                                          </ui:Target>
+                                                                                                                        </ui:CloseApplication.Target>
+                                                                                                                        <sap:WorkflowViewStateService.ViewState>
+                                                                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                                                                          </scg:Dictionary>
+                                                                                                                        </sap:WorkflowViewStateService.ViewState>
+                                                                                                                      </ui:CloseApplication>
+                                                                                                                    </FlowStep>
+                                                                                                                  </FlowStep.Next>
                                                                                                                 </FlowStep>
                                                                                                               </FlowStep.Next>
                                                                                                             </FlowStep>
@@ -1494,7 +1521,7 @@
                                                                                                               <av:PointCollection x:Key="ConnectorLocation">490,3895.5 490,3924.5</av:PointCollection>
                                                                                                             </scg:Dictionary>
                                                                                                           </sap:WorkflowViewStateService.ViewState>
-                                                                                                          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="건축물대장 층별개요 다운로드에 실패하였습니다 오류메세지를 확인하세요." DisplayName="Send Mail Message : 실패" Email="kid1064@gmail.com" EnableSSL="True" From="kid1064@gmail.com" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SendMail_3" IsBodyHtml="False" Name="BLD_Automation" Password="[Password]" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="건축물대장 층별개요 다운로드 실패" To="ghkim@nice.co.kr">
+                                                                                                          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="건축물대장 층별개요 다운로드에 실패하였습니다 오류메세지를 확인하세요." DisplayName="Send Mail Message : 실패" Email="kid1064@gmail.com" EnableSSL="True" From="kid1064@gmail.com" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SendMail_3" IsBodyHtml="False" Name="BLD_Automation" Password="jcqbczcjqhrcwszg" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="건축물대장 층별개요 다운로드 실패" To="ghkim@nice.co.kr">
                                                                                                             <ui:SendMail.Files>
                                                                                                               <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                                                                                                             </ui:SendMail.Files>
@@ -1625,7 +1652,7 @@
                                                               <av:PointCollection x:Key="ConnectorLocation">660,2725.5 660,2754.5</av:PointCollection>
                                                             </scg:Dictionary>
                                                           </sap:WorkflowViewStateService.ViewState>
-                                                          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="건축물대장 표제부 다운로드에 실패하였습니다 오류메세지를 확인하세요." DisplayName="Send Mail Message : 실패" Email="kid1064@gmail.com" EnableSSL="True" From="kid1064@gmail.com" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SendMail_4" IsBodyHtml="False" Name="BLD_Automation" Password="[Password]" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="건축물대장 표제부 다운로드 실패" To="ghkim@nice.co.kr">
+                                                          <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="건축물대장 표제부 다운로드에 실패하였습니다 오류메세지를 확인하세요." DisplayName="Send Mail Message : 실패" Email="kid1064@gmail.com" EnableSSL="True" From="kid1064@gmail.com" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SendMail_4" IsBodyHtml="False" Name="BLD_Automation" Password="jcqbczcjqhrcwszg" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="건축물대장 표제부 다운로드 실패" To="ghkim@nice.co.kr">
                                                             <ui:SendMail.Files>
                                                               <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                                                             </ui:SendMail.Files>
@@ -1683,7 +1710,7 @@
                                                                 </Assign.Value>
                                                               </Assign>
                                                               <FlowStep.Next>
-                                                                <FlowStep x:Name="__ReferenceID52">
+                                                                <FlowStep x:Name="__ReferenceID53">
                                                                   <sap:WorkflowViewStateService.ViewState>
                                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                       <av:Point x:Key="ShapeLocation">824.5,2799.5</av:Point>
@@ -1932,7 +1959,7 @@
                                                           <av:PointCollection x:Key="ConnectorLocation">1060,2194.5 1060,2234.5</av:PointCollection>
                                                         </scg:Dictionary>
                                                       </sap:WorkflowViewStateService.ViewState>
-                                                      <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="건축물대장 표제부 다운로드에 실패하였습니다 오류메세지를 확인하세요." DisplayName="Send Mail Message : 실패" Email="kid1064@gmail.com" EnableSSL="True" From="kid1064@gmail.com" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SendMail_5" IsBodyHtml="False" Name="BLD_Automation" Password="[Password]" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="건축물대장 표제부 다운로드 실패" To="ghkim@nice.co.kr">
+                                                      <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="건축물대장 표제부 다운로드에 실패하였습니다 오류메세지를 확인하세요." DisplayName="Send Mail Message : 실패" Email="kid1064@gmail.com" EnableSSL="True" From="kid1064@gmail.com" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="SendMail_5" IsBodyHtml="False" Name="BLD_Automation" Password="jcqbczcjqhrcwszg" Port="465" SecureConnection="Auto" Server="smtp.gmail.com" Subject="건축물대장 표제부 다운로드 실패" To="ghkim@nice.co.kr">
                                                         <ui:SendMail.Files>
                                                           <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                                                         </ui:SendMail.Files>
@@ -2290,7 +2317,7 @@
         </sap:WorkflowViewStateService.ViewState>
       </WriteLine>
       <FlowStep.Next>
-        <FlowStep x:Name="__ReferenceID46">
+        <FlowStep x:Name="__ReferenceID47">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <av:Point x:Key="ShapeLocation">360,480.5</av:Point>
@@ -2306,7 +2333,7 @@
             </sap:WorkflowViewStateService.ViewState>
           </ui:PathExists>
           <FlowStep.Next>
-            <FlowDecision x:Name="__ReferenceID45" Condition="[isExistFile]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="81,87" sap2010:WorkflowViewState.IdRef="FlowDecision_10">
+            <FlowDecision x:Name="__ReferenceID46" Condition="[isExistFile]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="81,87" sap2010:WorkflowViewState.IdRef="FlowDecision_10">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2371,7 +2398,7 @@
                             </sap:WorkflowViewStateService.ViewState>
                           </Assign>
                           <FlowStep.Next>
-                            <FlowStep x:Name="__ReferenceID47">
+                            <FlowStep x:Name="__ReferenceID48">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <av:Point x:Key="ShapeLocation">120,1044.5</av:Point>
@@ -2387,7 +2414,7 @@
                                 </sap:WorkflowViewStateService.ViewState>
                               </ui:PathExists>
                               <FlowStep.Next>
-                                <FlowDecision x:Name="__ReferenceID48" Condition="[isExistFile]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="81,87" sap2010:WorkflowViewState.IdRef="FlowDecision_9" True="{x:Reference __ReferenceID4}">
+                                <FlowDecision x:Name="__ReferenceID49" Condition="[isExistFile]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="81,87" sap2010:WorkflowViewState.IdRef="FlowDecision_9" True="{x:Reference __ReferenceID4}">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2398,7 +2425,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <FlowDecision.False>
-                                    <FlowStep x:Name="__ReferenceID49">
+                                    <FlowStep x:Name="__ReferenceID50">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <av:Point x:Key="ShapeLocation">259,1330</av:Point>
@@ -2476,12 +2503,12 @@
     <x:Reference>__ReferenceID34</x:Reference>
     <x:Reference>__ReferenceID35</x:Reference>
     <x:Reference>__ReferenceID0</x:Reference>
-    <FlowStep x:Name="__ReferenceID59">
+    <FlowStep x:Name="__ReferenceID60">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">344.5,99.5</av:Point>
           <av:Size x:Key="ShapeSize">231,61</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">575.5,130 750,130 750,184.5</av:PointCollection>
+          <av:PointCollection x:Key="ConnectorLocation">460,160.5 460,184.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="231,61" sap2010:WorkflowViewState.IdRef="WriteLine_9" Text="Start Process">
@@ -2492,26 +2519,26 @@
         </sap:WorkflowViewStateService.ViewState>
       </WriteLine>
       <FlowStep.Next>
-        <FlowStep x:Name="__ReferenceID57">
+        <FlowStep x:Name="__ReferenceID45">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <av:Point x:Key="ShapeLocation">650,184.5</av:Point>
+              <av:Point x:Key="ShapeLocation">360,184.5</av:Point>
               <av:Size x:Key="ShapeSize">200,51</av:Size>
-              <av:PointCollection x:Key="ConnectorLocation">750,235.5 750,280 560,280</av:PointCollection>
+              <av:PointCollection x:Key="ConnectorLocation">460,235.5 460,254.5</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Parallel DisplayName="AssignVariable_Test" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Parallel_2">
+          <Parallel DisplayName="AssignVariable" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Parallel_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Assign DisplayName="AssignYear" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_22">
+            <Assign DisplayName="AssignYear" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_16">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">[Year]</OutArgument>
               </Assign.To>
               <Assign.Value>
-                <InArgument x:TypeArguments="x:String">["2020년"]</InArgument>
+                <InArgument x:TypeArguments="x:String">[Now.Date.AddMonths(-1).ToString("yyyy년")]</InArgument>
               </Assign.Value>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -2519,12 +2546,12 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
-            <Assign DisplayName="AssignMonth" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_23">
+            <Assign DisplayName="AssignMonth" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_17">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">[Month]</OutArgument>
               </Assign.To>
               <Assign.Value>
-                <InArgument x:TypeArguments="x:String">["11"]</InArgument>
+                <InArgument x:TypeArguments="x:String">[CInt(Now.Date.AddMonths(-1).ToString("MM")).ToString]</InArgument>
               </Assign.Value>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -2534,7 +2561,7 @@
             </Assign>
           </Parallel>
           <FlowStep.Next>
-            <FlowStep x:Name="__ReferenceID51">
+            <FlowStep x:Name="__ReferenceID52">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <av:Point x:Key="ShapeLocation">360,254.5</av:Point>
@@ -2580,7 +2607,7 @@
                 </If.Else>
               </If>
               <FlowStep.Next>
-                <FlowStep x:Name="__ReferenceID54">
+                <FlowStep x:Name="__ReferenceID55">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <av:Point x:Key="ShapeLocation">329,325.5</av:Point>
@@ -2619,47 +2646,6 @@
     <x:Reference>__ReferenceID42</x:Reference>
     <x:Reference>__ReferenceID43</x:Reference>
     <x:Reference>__ReferenceID44</x:Reference>
-    <FlowStep>
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">360,184.5</av:Point>
-          <av:Size x:Key="ShapeSize">200,51</av:Size>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-      <Parallel DisplayName="AssignVariable" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Parallel_1">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-        <Assign DisplayName="AssignYear" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_16">
-          <Assign.To>
-            <OutArgument x:TypeArguments="x:String">[Year]</OutArgument>
-          </Assign.To>
-          <Assign.Value>
-            <InArgument x:TypeArguments="x:String">[Now.Date.AddMonths(-1).ToString("yyyy년")]</InArgument>
-          </Assign.Value>
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </Assign>
-        <Assign DisplayName="AssignMonth" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_17">
-          <Assign.To>
-            <OutArgument x:TypeArguments="x:String">[Month]</OutArgument>
-          </Assign.To>
-          <Assign.Value>
-            <InArgument x:TypeArguments="x:String">[CInt(Now.Date.AddMonths(-1).ToString("MM")).ToString]</InArgument>
-          </Assign.Value>
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </Assign>
-      </Parallel>
-    </FlowStep>
     <x:Reference>__ReferenceID45</x:Reference>
     <x:Reference>__ReferenceID46</x:Reference>
     <x:Reference>__ReferenceID47</x:Reference>
@@ -2673,6 +2659,48 @@
     <x:Reference>__ReferenceID55</x:Reference>
     <x:Reference>__ReferenceID56</x:Reference>
     <x:Reference>__ReferenceID57</x:Reference>
+    <FlowStep>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">650,184.5</av:Point>
+          <av:Size x:Key="ShapeSize">200,51</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Parallel DisplayName="AssignVariable_Test" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Parallel_2">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Assign DisplayName="AssignYear" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_22">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:String">[Year]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:String">["2020년"]</InArgument>
+          </Assign.Value>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Assign>
+        <Assign DisplayName="AssignMonth" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_23">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:String">[Month]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:String">["11"]</InArgument>
+          </Assign.Value>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Assign>
+      </Parallel>
+    </FlowStep>
     <x:Reference>__ReferenceID58</x:Reference>
+    <x:Reference>__ReferenceID59</x:Reference>
   </Flowchart>
 </Activity>

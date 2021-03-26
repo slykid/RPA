@@ -14,9 +14,10 @@
     "UiPath.UIAutomation.Activities": "[19.8.0-ce]"
   },
   "webServices": [],
+  "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "19.8.0.0",
-  "projectVersion": "1.1.2",
+  "projectVersion": "1.1.5",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -26,7 +27,9 @@
       "Private:*",
       "*password*"
     ],
-    "executionType": "Workflow"
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -35,11 +38,22 @@
       "includeOriginalXaml": false,
       "privateWorkflows": []
     },
-    "fileInfos": []
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
   },
-  "arguments": {
-    "input": [],
-    "output": []
-  },
-  "expressionLanguage": "VisualBasic"
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "05eb0166-3da7-42c0-8fd5-cd217060c714",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
 }

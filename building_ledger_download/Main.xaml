@@ -2663,47 +2663,6 @@
     <x:Reference>__ReferenceID55</x:Reference>
     <x:Reference>__ReferenceID56</x:Reference>
     <x:Reference>__ReferenceID57</x:Reference>
-    <FlowStep>
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">650,184.5</av:Point>
-          <av:Size x:Key="ShapeSize">200,51</av:Size>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-      <Parallel DisplayName="AssignVariable_Test" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="Parallel_2">
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-        <Assign DisplayName="AssignYear" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_22">
-          <Assign.To>
-            <OutArgument x:TypeArguments="x:String">[Year]</OutArgument>
-          </Assign.To>
-          <Assign.Value>
-            <InArgument x:TypeArguments="x:String">["2020년"]</InArgument>
-          </Assign.Value>
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </Assign>
-        <Assign DisplayName="AssignMonth" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_23">
-          <Assign.To>
-            <OutArgument x:TypeArguments="x:String">[Month]</OutArgument>
-          </Assign.To>
-          <Assign.Value>
-            <InArgument x:TypeArguments="x:String">["11"]</InArgument>
-          </Assign.Value>
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </Assign>
-      </Parallel>
-    </FlowStep>
     <x:Reference>__ReferenceID58</x:Reference>
     <x:Reference>__ReferenceID59</x:Reference>
   </Flowchart>

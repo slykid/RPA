@@ -60,8 +60,12 @@
       <Variable x:TypeArguments="x:Int32" Default="0" Name="durationTime" />
       <Variable x:TypeArguments="x:String" Name="Year" />
       <Variable x:TypeArguments="x:String" Name="Month" />
-      <Variable x:TypeArguments="x:String" Default="Magic1412!" Name="Password" />
-      <Variable x:TypeArguments="ss:SecureString" Default="[(new System.Net.NetworkCredential(&quot;&quot;, “Magic1412!”)).SecurePassword]" Name="Password1" />
+      <Variable x:TypeArguments="ss:SecureString" Default="[(New System.Net.NetworkCredential(&quot;&quot;, &quot;Magic1412!&quot;)).SecurePassword]" Name="Password" />
+      <Variable x:TypeArguments="ss:SecureString" Name="Mail_AppPW">
+        <Variable.Default>
+          <mva:VisualBasicValue x:TypeArguments="ss:SecureString" ExpressionText="(New System.Net.NetworkCredential(&quot;&quot;, &quot;jcqbczcjqhrcwszg&quot;)).SecurePassword" />
+        </Variable.Default>
+      </Variable>
     </Flowchart.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -74,7 +78,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
-      <x:Reference>__ReferenceID60</x:Reference>
+      <x:Reference>__ReferenceID59</x:Reference>
     </Flowchart.StartNode>
     <FlowStep x:Name="__ReferenceID6">
       <sap:WorkflowViewStateService.ViewState>
@@ -1456,7 +1460,6 @@
                                                                                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                                                       <av:Point x:Key="ShapeLocation">240,4049.5</av:Point>
                                                                                                                       <av:Size x:Key="ShapeSize">231,61</av:Size>
-                                                                                                                      <av:PointCollection x:Key="ConnectorLocation">355.5,4110.5 355.5,4140.5 350,4140.5 350,4164.5</av:PointCollection>
                                                                                                                     </scg:Dictionary>
                                                                                                                   </sap:WorkflowViewStateService.ViewState>
                                                                                                                   <WriteLine DisplayName="종료 메세지 출력" sap:VirtualizedContainerService.HintSize="231,61" sap2010:WorkflowViewState.IdRef="WriteLine_11" Text="Process End">
@@ -1466,33 +1469,6 @@
                                                                                                                       </scg:Dictionary>
                                                                                                                     </sap:WorkflowViewStateService.ViewState>
                                                                                                                   </WriteLine>
-                                                                                                                  <FlowStep.Next>
-                                                                                                                    <FlowStep x:Name="__ReferenceID59">
-                                                                                                                      <sap:WorkflowViewStateService.ViewState>
-                                                                                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                                                                          <av:Point x:Key="ShapeLocation">250,4164.5</av:Point>
-                                                                                                                          <av:Size x:Key="ShapeSize">200,51</av:Size>
-                                                                                                                        </scg:Dictionary>
-                                                                                                                      </sap:WorkflowViewStateService.ViewState>
-                                                                                                                      <ui:CloseApplication DisplayName="익스플로러 종료" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="CloseApplication_1">
-                                                                                                                        <ui:CloseApplication.Target>
-                                                                                                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="ae7b7f75d53584c408b7e0fa1253433a" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='건축데이터 민간개방 시스템 - Internet Explorer' /&gt;">
-                                                                                                                            <ui:Target.TimeoutMS>
-                                                                                                                              <InArgument x:TypeArguments="x:Int32" />
-                                                                                                                            </ui:Target.TimeoutMS>
-                                                                                                                            <ui:Target.WaitForReady>
-                                                                                                                              <InArgument x:TypeArguments="ui:WaitForReady" />
-                                                                                                                            </ui:Target.WaitForReady>
-                                                                                                                          </ui:Target>
-                                                                                                                        </ui:CloseApplication.Target>
-                                                                                                                        <sap:WorkflowViewStateService.ViewState>
-                                                                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                                                                          </scg:Dictionary>
-                                                                                                                        </sap:WorkflowViewStateService.ViewState>
-                                                                                                                      </ui:CloseApplication>
-                                                                                                                    </FlowStep>
-                                                                                                                  </FlowStep.Next>
                                                                                                                 </FlowStep>
                                                                                                               </FlowStep.Next>
                                                                                                             </FlowStep>
@@ -2503,7 +2479,7 @@
     <x:Reference>__ReferenceID34</x:Reference>
     <x:Reference>__ReferenceID35</x:Reference>
     <x:Reference>__ReferenceID0</x:Reference>
-    <FlowStep x:Name="__ReferenceID60">
+    <FlowStep x:Name="__ReferenceID59">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">344.5,99.5</av:Point>
@@ -2701,6 +2677,5 @@
       </Parallel>
     </FlowStep>
     <x:Reference>__ReferenceID58</x:Reference>
-    <x:Reference>__ReferenceID59</x:Reference>
   </Flowchart>
 </Activity>
